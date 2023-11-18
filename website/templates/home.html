@@ -1,0 +1,17 @@
+{% extends "base.html"%}
+
+{% block content%}
+<div class="content">
+    <p>Tired of waiting for next week's Discover Weekly Playlist?</p>
+    <p>Or do you simply want to discover more of your kind of music?</p>
+    <p>No matter the reason, you have come to the right place, <span class="highlight" style="font-family: melomaniac;">Melomaniac!</span></p>
+</div>
+{% endblock %}
+
+{% block button%}
+    <div>
+        <a type="button" class="btn home-content-btn" href="/auth_spotify">
+            Sign in with <span><i class="bi bi-spotify"></i></span> <span style="font-weight: 400;">Spotify</span>
+        </a>
+    </div>
+{% endblock%}

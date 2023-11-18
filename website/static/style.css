@@ -1,0 +1,95 @@
+.background {
+    background-color: #040500;
+}
+
+html, body {
+    height: 100%;
+}
+
+.highlight {
+    color: #e61445;
+}
+
+.content {
+    color: #85f4da;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.home-content-btn {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    color: #1db954;
+    border: solid 1px #1db954;
+}
+
+.ready-content-btn {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    color: #e61445;
+    border: solid 1px #e61445;
+}
+
+.ready-content-btn:hover {
+    color: #85f4da;
+    border-color: #85f4da;
+    transition: 300ms ease;
+}
+
+.home-content-btn:hover {
+    color: #FFFFFF;
+    background-color: #1db954;
+    transition: 300ms ease;
+}
+
+.navbar-brand:hover{
+    color: #e61445;
+}
+
+.alert-success {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0.8rem;
+    color: #1db954;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    margin: auto;
+}
+
+.close {
+    color: #1db954;
+    border: none;
+    width: fit-content;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 100;
+}
+
+.nav-btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px #e61445;
+    color: #e61445;
+    width: 7rem;
+}
+
+.nav-btn:hover {
+    border: solid 1px #85f4da;
+    color: #85f4da;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 300ms ease;
+}
+
+.footer-font {
+    font-size: 0.8rem;
+    color: #e61445;
+}
+
+.footer-icon {
+    color: #e61445;
+}
+
+.footer-icon:hover {
+    color: #85f4da;
+    transition: 300ms ease;
+}

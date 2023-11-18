@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&display=swap" rel="stylesheet">
+    <title>Melomaniac!</title>
+</head>
+<body class="background d-flex flex-column justify-content-center align-items-center">
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center w-100">
+                <div class="container-fluid">
+                    <a class="navbar-brand highlight" href="/" style="font-family: 'melomaniac'">Melomaniac!</a>
+                </div> 
+                <div class="mx-2">
+                    <button type="button" class="btn nav-btn">
+                        About
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex flex-md-column p-4">
+        {% block content %}
+        
+        {% endblock %} 
+    </div>
+    <div class="mb-5">
+        {% block button %}
+
+        {% endblock%}
+    </div>
+    
+    <nav class="navbar fixed-bottom navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center w-100">
+                <div class="container-fluid footer-font">
+                    2023 &copy; Sayf Sahaf
+                </div> 
+                <div class="mx-2">
+                    <a class="footer-icon" href="https://github.com/SayfSahaf/melomaniac-prototype"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+
+    <style>
+        @font-face{
+            font-family: 'melomaniac';
+            src: url('../static/HelpMe-Yz7Lq.ttf');
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
+</body>
+</html>

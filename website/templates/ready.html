@@ -1,0 +1,20 @@
+{% extends "base.html"%}
+
+{% block content %}
+
+<div class="content">
+    <p>You're all set.</p>
+    <p>Click on the button below to have a personalized playlist created and added to your Spotify profile.</p>
+    <p>Oh, and enjoy your new playlist, <span class="highlight" style="font-family: melomaniac;">Melomaniac!</span></p>
+</div>
+
+{% endblock %}
+
+{% block button %}
+<div>
+    <a type="button" class="btn ready-content-btn" href="/ready">
+        Create a New Playlist
+    </a>
+</div>
+{% endblock %}
+
