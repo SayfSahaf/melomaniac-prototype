@@ -1,15 +1,14 @@
-# melomaniac-prototype
+# Melomaniac - Personalised Playlist Creator
+
+## Description
+Melomaniac is a web app that curates personalized music playlists for the user based on their music preferences and listening history on Spotify.
 
 
-A flask app that uses Spotify's APIs to fetch user data and make changes to the user's profile.
+## Stack
 
+`Python
+Flask
+Jinja2 Templating Engine
+Bootstrap`
 
-Creates a personalized playlist based on the user's listening history.
-
-
-## **The web app needs a database to serve the internet**
-
-
-I need to implement a database if I want my app to be used by others due to the nature of Spotify's authorization practices, so I have disabled my web app at the moment.
-I will enable the web app again once I have implemented a database.
-
+## 
